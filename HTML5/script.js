@@ -17,7 +17,6 @@ form1.addEventListener("submit", function(event){
 	content.innerHTML = "<h1>Number: </h1>";
 	content.innerHTML += "<p>" + data.number + "</p>";
   	content.innerHTML += data.password;
-
 });
 function example () {
 
