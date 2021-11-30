@@ -1,0 +1,52 @@
+#cabeceraWeb{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #white;
+	margin: auto;
+	Color: #000000;
+
+}
+#mainContent{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #white;
+	margin: auto;
+	Color: #000000;
+
+}
+#main{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #white;
+	margin: auto;
+	Color: #000000;
+
+}
+
+.form-register{
+	width: 600px;
+	background: #9700FF;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	color: white;
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid;
+}
+
+
+#tittle{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #white;
+	margin: auto;
+	Color: #000000;
+
+
+}
+
