@@ -6,7 +6,7 @@
 	Color: #000000;
 
 }
-#contenido_principal{
+#mainContent{
 	width: 900px;
 	height: auto; overflow: hidden;
 	border: 0px solid #white;
@@ -47,4 +47,6 @@ header{
 	margin: auto;
 	Color: #000000;
 
+
 }
+
