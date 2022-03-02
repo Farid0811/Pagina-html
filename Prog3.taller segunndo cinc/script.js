@@ -1,11 +1,6 @@
-class LinkedListItem {
-  constructor(value, next) {
-    this.value = value;
-    this.next = next;  
-  };
-};
-console.log("Script loaded!"){
-var form1 = document.getElementById("form");
+
+console.log("Script loaded!")
+var form1 = document.getElementById("form-1");
 var content = document.getElementById("form-content");
 
 form1.addEventListener("submit", function(event){
@@ -15,17 +10,29 @@ form1.addEventListener("submit", function(event){
   console.log(event);
   console.log("submit");
   console.log(data);
-  content.innerHTML = "<h1>Nombre: </h1>";
-  content.innerHTML += "<p>" + data.name + "</p>";
- 
-};
+  
+  form1.reset();  
+  
+});
+
+function example () {
+
+  return []
 }
-class LinkedList {
-  constructor() {
+
+
+class List {
+  constructor(value, next) {
+    this.value = value;
+    this.next = next;
+    }
+  }
+class LinkedList{
+  constructor(){
     this.head = null;
     this.size = 0;
-  };
-  add(value){
+  }
+   add(value){
     const newNode = new Node(value,null);
     if (!this.head) {
       this.head = newNode;
@@ -37,8 +44,8 @@ class LinkedList {
       current.next = newNode;
     };
     this.size++;
-  };
-  insertAt(value, index){
+    };
+     insertAt(value, index){
       if(idex < 0 || index > this,size){
         return null
       };
@@ -57,9 +64,9 @@ class LinkedList {
         previous.next = newNode;
       };
       this.size++;
-  };
+    };
 
-  removeValue(value){
+     removeValue(value){
     let current = thhis.head;
     let previous = null;
     while(current!= null){
@@ -68,19 +75,19 @@ class LinkedList {
           this.head = current.next;
         }else{
           previous.next = current.next;
-        };
+        }
         this.else--;
         return current.value;
-      };
+      }
       previous= current;
       current= current.next;
-    };
+    }
     return null;
-  };
-  removeFrom(index){
+    }
+    removeFrom(index){
     if (index < 0 || index > this.size) {
       return null;
-    };
+    }
     let current = this.head;
     let previous = null;
     if(index==0){
@@ -89,14 +96,14 @@ class LinkedList {
       for(let i = 0; i< index; i++){
         previous = current;
         current = current.next;
-      };
+      }
       previous.next = current.next;
-    };
+    }
     this.size--;
     return curren.value;
-  };
+    } 
+}
 
-};
 
 /* print(){
     if (this.size) {
